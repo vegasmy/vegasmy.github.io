@@ -1,0 +1,28 @@
+body{
+  background: url('../img/content bg.png') no-repeat center top / cover;
+  font-family: arial;
+}
+ header{
+   margin-left: 11px;
+   padding-bottom: 25px;
+ }
+ .container{
+   margin-bottom: 55px;
+ }
+.sub-menu{
+  font-size: 20px;
+  margin-left: 11px;
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+.menu{
+  margin-left: 11px;
+  display: none;
+}
+  .sub-menu:focus ~ .menu,
+  .sub-menu:active ~ .menu,
+  .menu:hover
+{
+  display: block;
+}

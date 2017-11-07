@@ -1,0 +1,198 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+.clearfix:after{
+  content:"";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+div{
+  box-sizing: border-box;
+}
+header{
+    background: purple url('../img/2page/back.png') no-repeat center top / cover;
+    padding-bottom: 100px;
+    background-blend-mode: hard-light;
+}
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+.logo{
+  margin-top: 41px;
+  float: left;
+}
+nav{
+  float: right;
+  margin-top: 41px;
+}
+.menu{
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.menu li{
+  float: left;
+  display: block;
+  margin-right: 41px;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.first{
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+  margin-top: 40px;
+
+}
+h1{
+  font-size: 75px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+  margin: 0px;
+}
+.two{
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+}
+.pl{
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.button{
+  background: #ffffff;
+  color: #363c4e;
+  border-radius: 5px;
+  display: block;
+  width: 250px;
+  padding: 20px 0;
+  margin: 0 auto;
+  margin-right: 180px;
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.button2{
+  background: #fff200;
+  color: #363c4e;
+  border-radius: 5px;
+  display: block;
+  width: 250px;
+  padding: 20px 0;
+  margin-left: 180px;
+  margin-top: -60px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.services{
+    margin-top: 40px;
+}
+.services_item{
+  width: 220px;
+  float: left;
+  text-align: center;
+}
+.services_item h3{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.services_item p{
+  font-size: 14px;
+  color: #777;
+}
+.services_item:last-child{
+  float: right;
+}
+.services_item:nth-child(2){
+  margin-left: 130px;
+}
+.studio{
+  margin-top: 50px;
+  color: #1378cc;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+.iphone{
+  padding-right: 44px;
+}
+.blue{
+  background: #299cb5;
+  color: white;
+  border-radius: 0px;
+  display: block;
+  width: 1915px;
+  padding: 20px;
+  margin-top: -50px;
+  margin-left: -500px;
+  text-decoration: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+}
+.button3{
+  background: white;
+  color: #363c4e;
+  border-radius: 5px;
+  display: block;
+  width: 250px;
+  padding: 20px 0;
+  margin-left: 1180px;
+  margin-top: -60px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.teams{
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+
+}
+.team{
+    margin-top: 40px;
+  }
+  .team_item{
+    width: 220px;
+    float: left;
+    text-align: center;
+  }
+  .team_item:last-child{
+    float: right;
+    margin-right: 130px;
+  }
+  .team_item:nth-child(2){
+    margin-left: 130px;
+  }
+  .team_item h4{
+    font-size: 18px;
+    margin-top: 1px;
+    color: black;
+  }
+  .team_item p{
+    font-size: 14px;
+    margin-top: -20px;
+    color: red;
+  }
